@@ -17,3 +17,7 @@ Set `"globalRevoke": true` in `killswitch.json` and push.
 Apps fetch:
 
 `https://raw.githubusercontent.com/platysonique/platysonique-killswitch/main/killswitch.json`
+
+When revoked, apps wipe local credentials (OBS WebSocket password, BabbleCast passwords, browser storage, sudo keyring entry, etc.) before exiting.
+
+Optional private device labels: `platysonique-device-registry` (GitHub private).
